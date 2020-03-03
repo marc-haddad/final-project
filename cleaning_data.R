@@ -126,7 +126,7 @@ pattern_str = ".*^ST[ERAN]+.*|.*^STLG.*"
 pattern_saa = ".*^SAA.*"
 pattern_tsl = ".*^TESL.*"
 
-checker(pattern_tes) # Checks for anything similar to 'TOYOTA'
+checker(pattern_toy) # Checks for anything similar to provided pattern
 
 # Here is where the data actually gets cleaned
 clean_data = filtered_data %>% 
