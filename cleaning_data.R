@@ -86,7 +86,7 @@ pattern_toy = ".*^[TYO][POYT0][YTO0].*"
 pattern_hon = ".*^[HO]+I?[MND]+(?!O).*"
 pattern_for = ".*^FORD.*"
 pattern_nis = ".*^NIS.*"
-pattern_dod = ".*^DODG.*"
+pattern_dod = ".*^DODG.*|.*^RAM.*"
 pattern_chv = ".*^CHEV.*"
 pattern_hyu = ".*^H[YUN]+(?!M).*"
 pattern_lex = ".*^LEX.*"
@@ -101,20 +101,32 @@ pattern_gil = ".*^GIL.*"
 pattern_cry = ".*^C[RH]+Y(?!E)S?(?!V)(?!A).*"
 pattern_vov = ".*^VOLV.*"
 pattern_vow = ".*^V[OLKSW\\s]+(?!V).*"
-pattern_new = ".*^N[E?W]+.*|.*^FLY.*"
+pattern_new = ".*^N[E?W]+.*|.*^FLY.*|.*^NFLY.*"
 pattern_bui = ".*^BUIC.*"
 pattern_inf = ".*^INF.*"
 pattern_cad = ".*^CAD.*"
 pattern_mit = ".*^MIT.*"
 pattern_frt = ".*^FREI.*|.*^FRT.*|.*^FTL.*|.*FRHT.*"
-pattern_sat = ".*^SAT[UR]+.*"
+pattern_sat = ".*^SAT[UR]+.*|.*^STRN.*"
 pattern_sci = ".*^SCIO.*"
 pattern_lin = ".*^LINC.*"
 pattern_mac = ".*^MAC.*"
 pattern_int = ".*^INT.*"
 pattern_min = ".*^MINI.*|.*^MNN.*"
+pattern_suz = ".*^SUZ.*"
+pattern_pon = ".*^PON.*"
+pattern_ori = ".*^ORI.*"
+pattern_isu = ".*^ISU.*"
+pattern_jag = ".*^JAG.*"
+pattern_spa = ".*^SPA.*"
+pattern_har = ".*^HARL.*"
+pattern_lnd = ".*^LAND.*|.*^LNDR.*|.*^RANG.*|.*^ROV.*"
+pattern_por = ".*^POR.*"
+pattern_str = ".*^ST[ERAN]+.*|.*^STLG.*"
+pattern_saa = ".*^SAA.*"
+pattern_tsl = ".*^TESL.*"
 
-checker(pattern_min) # Checks for anything similar to 'TOYOTA'
+checker(pattern_tes) # Checks for anything similar to 'TOYOTA'
 
 # Here is where the data actually gets cleaned
 clean_data = filtered_data %>% 
@@ -211,6 +223,66 @@ clean_data = filtered_data %>%
     
     # "minicooper" in place of anything that matches pattern
     vehicle_make = str_replace(vehicle_make, pattern_min, "minicooper"),
+    
+    # "suzuki" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_suz, "suzuki"),
+    
+    # "pontiac" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_pon, "pontiac"),
+    
+    # "orion" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_ori, "orion"),
+    
+    # "isuzu" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_isu, "isuzu"),
+    
+    # "jaguar" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_jag, "jaguar"),
+    
+    # "spartan" in place of anything that matches pattern 
+    vehicle_make = str_replace(vehicle_make, pattern_spa, "spartan"),
+    
+    # "harley_davidson" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_har, "harley_davidson"),
+    
+    # "land_rover" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_lnd, "land_rover"),
+    
+    # "porsche" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_por, "porsche"),
+    
+    # "sterling" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_str, "sterling"),
+    
+    # "saab" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_saa, "saab"),
+    
+    # "tesla" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, pattern_tsl, "tesla"),
+    
+    # "kia" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^KIA$", "kia"),
+    
+    # "audi" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^AUDI$", "audi"),
+    
+    # "fiat" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^FIAT$", "fiat"),
+    
+    # "jeep" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^JEEP$", "jeep"),
+    
+    # "bmw" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^BMW$", "bmw"),
+    
+    # "mercury" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^MERCURY$", "mercury"),
+    
+    # "pierce" in place of anything that matches pattern
+    vehicle_make = str_replace(vehicle_make, "^PIERCE", "pierce"),
+    
+    # Replaces the rest of obscure makes into "other"
+    vehicle_make = str_replace(vehicle_make, "^[[:upper:]\\s?/?]+$", "other")
   )
 
 
@@ -220,5 +292,12 @@ v_count(renamed_data)
 # Sum of makes after cleaning:
 v_count(clean_data)
 
-# Convert all vehicle makes to lowercase
-clean_data %>% mutate(vehicle_make = tolower(vehicle_make)) %>% v_count()
+# Final check of data:
+View(clean_data)
+
+# Create new csv:
+write_csv(clean_data, "clean_crash_data.csv")
+
+
+
+
