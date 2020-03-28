@@ -1,11 +1,8 @@
 # Final-Project
   
-### Contributors
-
-
 ### Team Members: 
 
-Ashley McGee, Robert McAlmon, Ashley Patterson, Jenny Dang, Stephanie Engeling
+Omar Haddad, Nithin Sunil, Sedra Kurdi, Myles Bridges
 
 # Austin Crime Rate Analysis 
 
