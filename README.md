@@ -7,7 +7,7 @@ Omar Haddad, Nithin Sunil, Sedra Kurdi, Myles Bridges
 # Crashing into Machine Learning
 
 ### Predicting Vehicle Accident Blame 
-Finding crime patterns and trends in Austin by zip code to provide better safety and security insights for Austin residents and tourists. 
+Predicting the probability of the driver being at fault in a car crash given driver, weather, and road conditions
 
 ## Questions:
 1. Where is crime concentrated in Austin? 
