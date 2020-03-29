@@ -25,8 +25,21 @@ Predicting the probability of the driver being at fault in a car crash given dri
 4. Predicting Crash Outcomes with ML
 
 ## Data Cleaning
-### Technology Used:
+###### Technology Used:
 R with Regex, Tidyverse, Readr, and Stringr
+<img src="Images/Picture1.png">
+
+###### Renamed Columns:
+<img src="Images/Picture2.png">
+
+###### Drop columns with too many "NA" values
+<img src="Images/Picture2.png">
+
+###### Remove obscure car makes
+<img src="Images/Picture2.png">
+
+
+
 
 # Questions - Answered
 
