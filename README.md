@@ -32,14 +32,82 @@ R with Regex, Tidyverse, Readr, and Stringr
 ###### Renamed Columns:
 <img src="Images/Picture2.png">
 
-###### Drop columns with too many "NA" values
+###### Drop columns with too many "NA" values:
 <img src="Images/Picture3.png">
 
-###### Remove obscure car makes
+###### Remove obscure car makes:
 <img src="Images/Picture4.png">
 
-###### Create helper functions
+###### Create helper functions:
 <img src="Images/Picture5.png">
+<img src="Images/Picture6.png">
+
+###### Define patterns to search for with Regex:
+
+#### Beautiful Regex:
+<img src="Images/Picture7.png">
+
+###### "Checker" function at work:
+<img src="Images/Picture8.png">
+<img src="Images/Picture9.png">
+
+###### String replacement:
+<img src="Images/Picture10.png">
+
+###### Before Cleaning:
+<img src="Images/Picture11.png">
+<img src="Images/Picture12.png">
+
+###### After Cleaning:
+<img src="Images/Picture13.png">
+<img src="Images/Picture14.png">
+
+## Exploratory Data Analysis
+
+###### Most Common Accidents:
+<img src="Images/Picture15.png">
+
+###### Avg. Speed Limit vs. Injury Severity:
+<img src="Images/Picture16.png">
+
+###### Most common car makes:
+<img src="Images/Picture17.png">
+
+###### Time Analysis:
+<img src="Images/Picture18.png">
+<img src="Images/Picture19.png">
+
+###### Fatal & Serious Injuries per Vehicle Make
+<img src="Images/Picture20.png">
+
+###### Vehicle Damage by Speed Limit
+<img src="Images/Picture21.png">
+
+## Predicting Crash Outcomes
+
+### First Model: Linear SVC Model
+
+#### Predicting Crash Outcomes: Driver at Fault?
+
+###### Import Dependencies & Data
+<img src="Images/Picture22.png">
+<img src="Images/Picture23.png">
+
+###### Simplify
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
