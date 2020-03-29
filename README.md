@@ -146,7 +146,7 @@ R with Regex, Tidyverse, Readr, and Stringr
 <img src="Images/Picture36.png">
 <img src="Images/Picture37.png">
 
-### Second Algorithm
+### Second Algorithm: Logistic Regression Model
 
 ###### Reasoning:
 Utilized Logistic regression because "driver_at_fault" is **Categorical**
