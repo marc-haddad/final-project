@@ -25,8 +25,130 @@ Predicting the probability of the driver being at fault in a car crash given dri
 4. Predicting Crash Outcomes with ML
 
 ## Data Cleaning
-### Technology Used:
+###### Technology Used:
 R with Regex, Tidyverse, Readr, and Stringr
+<img src="Images/Picture1.png">
+
+###### Renamed Columns:
+<img src="Images/Picture2.png">
+
+###### Drop columns with too many "NA" values:
+<img src="Images/Picture3.png">
+
+###### Remove obscure car makes:
+<img src="Images/Picture4.png">
+
+###### Create helper functions:
+<img src="Images/Picture5.png">
+<img src="Images/Picture6.png">
+
+###### Define patterns to search for with Regex:
+
+#### Beautiful Regex:
+<img src="Images/Picture7.png">
+
+###### "Checker" function at work:
+<img src="Images/Picture8.png">
+<img src="Images/Picture9.png">
+
+###### String replacement:
+<img src="Images/Picture10.png">
+
+###### Before Cleaning:
+<img src="Images/Picture11.png">
+<img src="Images/Picture12.png">
+
+###### After Cleaning:
+<img src="Images/Picture13.png">
+<img src="Images/Picture14.png">
+
+## Exploratory Data Analysis
+
+###### Most Common Accidents:
+<img src="Images/Picture15.png">
+
+###### Avg. Speed Limit vs. Injury Severity:
+<img src="Images/Picture16.png">
+
+###### Most common car makes:
+<img src="Images/Picture17.png">
+
+###### Time Analysis:
+<img src="Images/Picture18.png">
+<img src="Images/Picture19.png">
+
+###### Fatal & Serious Injuries per Vehicle Make
+<img src="Images/Picture20.png">
+
+###### Vehicle Damage by Speed Limit
+<img src="Images/Picture21.png">
+
+## Predicting Crash Outcomes
+
+### First Model: Linear SVC Model
+
+#### Predicting Crash Outcomes: Driver at Fault?
+
+###### Import Dependencies & Data
+<img src="Images/Picture22.png">
+<img src="Images/Picture23.png">
+
+###### Simplify Columns
+<img src="Images/Picture24.png">
+<img src="Images/Picture25.png">
+<img src="Images/Picture26.png">
+
+###### Define X
+<img src="Images/Picture27.png">
+<img src="Images/Picture28.png">
+<img src="Images/Picture29.png">
+
+###### Define Y
+<img src="Images/Picture30.png">
+
+###### Train/Test Split
+<img src="Images/Picture31.png">
+
+##### Modeling and Metrics
+
+###### Precision-Recall Curve
+<img src="Images/Picture32.png">
+
+###### Train Model
+<img src="Images/Picture33.png">
+
+###### Model Metrics
+<img src="Images/Picture34.png">
+
+###### Accuracy, Precision, Balanced Accuracy, & MSE
+<img src="Images/Picture35.png">
+<img src="Images/Picture36.png">
+<img src="Images/Picture39.png">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # Questions - Answered
 
