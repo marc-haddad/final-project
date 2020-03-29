@@ -40,48 +40,48 @@ R with Regex, Tidyverse, Readr, and Stringr
 
 ###### Create helper functions:
 <img src="Images/Picture5.png">
-<img src="Images/Picture6.png">
+<img src="Images/Picture43.png">
 
 ###### Define patterns to search for with Regex:
 
 #### Beautiful Regex:
-<img src="Images/Picture7.png">
+<img src="Images/Picture6.png">
 
 ###### "Checker" function at work:
+<img src="Images/Picture7.png">
 <img src="Images/Picture8.png">
-<img src="Images/Picture9.png">
 
 ###### String replacement:
-<img src="Images/Picture10.png">
+<img src="Images/Picture9.png">
 
 ###### Before Cleaning:
+<img src="Images/Picture10.png">
 <img src="Images/Picture11.png">
-<img src="Images/Picture12.png">
 
 ###### After Cleaning:
+<img src="Images/Picture12.png">
 <img src="Images/Picture13.png">
-<img src="Images/Picture14.png">
 
 ## Exploratory Data Analysis
 
 ###### Most Common Accidents:
-<img src="Images/Picture15.png">
+<img src="Images/Picture14.png">
 
 ###### Avg. Speed Limit vs. Injury Severity:
-<img src="Images/Picture16.png">
+<img src="Images/Picture15.png">
 
 ###### Most common car makes:
-<img src="Images/Picture17.png">
+<img src="Images/Picture16.png">
 
 ###### Time Analysis:
+<img src="Images/Picture17.png">
 <img src="Images/Picture18.png">
-<img src="Images/Picture19.png">
 
 ###### Fatal & Serious Injuries per Vehicle Make
-<img src="Images/Picture20.png">
+<img src="Images/Picture19.png">
 
 ###### Vehicle Damage by Speed Limit
-<img src="Images/Picture21.png">
+<img src="Images/Picture20.png">
 
 ## Predicting Crash Outcomes
 
@@ -90,40 +90,40 @@ R with Regex, Tidyverse, Readr, and Stringr
 #### Predicting Crash Outcomes: Driver at Fault?
 
 ###### Import Dependencies & Data
+<img src="Images/Picture21.png">
 <img src="Images/Picture22.png">
-<img src="Images/Picture23.png">
 
 ###### Simplify Columns
+<img src="Images/Picture23.png">
 <img src="Images/Picture24.png">
 <img src="Images/Picture25.png">
-<img src="Images/Picture26.png">
 
 ###### Define X
+<img src="Images/Picture26.png">
 <img src="Images/Picture27.png">
 <img src="Images/Picture28.png">
-<img src="Images/Picture29.png">
 
 ###### Define Y
-<img src="Images/Picture30.png">
+<img src="Images/Picture29.png">
 
 ###### Train/Test Split
-<img src="Images/Picture31.png">
+<img src="Images/Picture30.png">
 
 ##### Modeling and Metrics
 
 ###### Precision-Recall Curve
-<img src="Images/Picture32.png">
+<img src="Images/Picture31.png">
 
 ###### Train Model
-<img src="Images/Picture33.png">
+<img src="Images/Picture32.png">
 
 ###### Model Metrics
-<img src="Images/Picture34.png">
+<img src="Images/Picture33.png">
 
 ###### Accuracy, Precision, Balanced Accuracy, & MSE
+<img src="Images/Picture34.png">
 <img src="Images/Picture35.png">
-<img src="Images/Picture36.png">
-<img src="Images/Picture39.png">
+<img src="Images/Picture38.png">
 
 
 
