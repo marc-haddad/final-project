@@ -106,6 +106,9 @@ R with Regex, Tidyverse, Readr, and Stringr
 ###### Define Y
 <img src="Images/Picture30.png">
 
+###### Train/Test Split
+<img src="Images/Picture31.png">
+
 
 
 
