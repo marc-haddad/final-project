@@ -89,16 +89,16 @@ R with Regex, Tidyverse, Readr, and Stringr
 
 #### Predicting Crash Outcomes: Driver at Fault?
 
-###### Import Dependencies & Data
+###### Import Dependencies & Data:
 <img src="Images/Picture21.png">
 <img src="Images/Picture22.png">
 
-###### Simplify Columns
+###### Simplify Columns:
 <img src="Images/Picture23.png">
 <img src="Images/Picture24.png">
 <img src="Images/Picture25.png">
 
-###### Define X
+###### Define X:
 <img src="Images/Picture26.png">
 <img src="Images/Picture27.png">
 <img src="Images/Picture28.png">
@@ -106,24 +106,33 @@ R with Regex, Tidyverse, Readr, and Stringr
 ###### Define Y
 <img src="Images/Picture29.png">
 
-###### Train/Test Split
+###### Train/Test Split:
 <img src="Images/Picture30.png">
 
-##### Modeling and Metrics
+##### Modeling and Metrics:
 
-###### Precision-Recall Curve
+###### Precision-Recall Curve:
 <img src="Images/Picture31.png">
 
-###### Train Model
+###### Train Model:
 <img src="Images/Picture32.png">
 
-###### Model Metrics
+###### Model Metrics:
 <img src="Images/Picture33.png">
 
-###### Accuracy, Precision, Balanced Accuracy, & MSE
+###### Accuracy, Precision, Balanced Accuracy, & MSE:
 <img src="Images/Picture34.png">
 <img src="Images/Picture35.png">
 <img src="Images/Picture38.png">
+
+###### Confusion Matrix:
+<img src="Images/Picture36.png">
+<img src="Images/Picture37.png">
+
+### Second Algorithm
+
+###### Reasoning:
+
 
 
 
