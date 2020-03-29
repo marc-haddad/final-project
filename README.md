@@ -152,11 +152,11 @@ R with Regex, Tidyverse, Readr, and Stringr
 Utilized Logistic regression because "driver_at_fault" is **Categorical**
 
 ###### Approach:
-1.) Created Dummy Variables for each categorical feature
-2.) Balanced data using **Synthetic Minority Oversampling** in order to have
+1. Created Dummy Variables for each categorical feature
+2. Balanced data using **Synthetic Minority Oversampling** in order to have
     equal amounts of "at fault" and "not at fault"
-3.) Used **Recursive Feature Elimination** for variable selection
-4.) Fit features into Logistic Regression Model
+3. Used **Recursive Feature Elimination** for variable selection
+4. Fit features into Logistic Regression Model
 
 ###### Feature and Model Breakdown:
 <img src="Images/Picture39.png">
