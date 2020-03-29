@@ -33,10 +33,14 @@ R with Regex, Tidyverse, Readr, and Stringr
 <img src="Images/Picture2.png">
 
 ###### Drop columns with too many "NA" values
-<img src="Images/Picture2.png">
+<img src="Images/Picture3.png">
 
 ###### Remove obscure car makes
-<img src="Images/Picture2.png">
+<img src="Images/Picture4.png">
+
+###### Create helper functions
+<img src="Images/Picture5.png">
+
 
 
 
