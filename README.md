@@ -6,6 +6,22 @@ Omar Haddad, Nithin Sunil, Sedra Kurdi, Myles Bridges
 
 # Crashing into Machine Learning
 
+### Crash Dataset
+* 99,275 rows
+* 39 categorical variables
+
+###### Information:
+* Causes of Accidents
+* Driving Conditions
+* Who is at Fault
+* Vehicle Information
+
+###### Issues with Data:
+* Few Numeric Variables
+* Many Categories per Variable
+* Incorrect inputs
+* Location might be too specific
+
 ### Predicting Vehicle Accident Blame 
 Predicting the probability of the driver being at fault in a car crash given driver, weather, and road conditions.
 
@@ -27,6 +43,7 @@ Predicting the probability of the driver being at fault in a car crash given dri
 ## Data Cleaning
 ###### Technology Used:
 R with Regex, Tidyverse, Readr, and Stringr
+
 <img src="Images/Picture1.png">
 
 ###### Renamed Columns:
