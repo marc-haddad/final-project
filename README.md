@@ -132,7 +132,7 @@ R with Regex, Tidyverse, Readr, and Stringr
 ### Second Algorithm
 
 ###### Reasoning:
-Utilized Logistic regression because "driver_at_fault" is **categorical
+Utilized Logistic regression because "driver_at_fault" is **Categorical**
 
 ###### Approach:
 1.) Created Dummy Variables for each categorical feature
@@ -141,7 +141,15 @@ Utilized Logistic regression because "driver_at_fault" is **categorical
 3.) Used **Recursive Feature Elimination** for variable selection
 4.) Fit features into Logistic Regression Model
 
-######
+###### Feature and Model Breakdown:
+<img src="Images/Picture39.png">
+
+###### Accuracy:
+<img src="Images/Picture40.png">
+
+###### Precision, Recall, and F1 Score:
+
+
 
 
 
