@@ -148,6 +148,12 @@ Utilized Logistic regression because "driver_at_fault" is **Categorical**
 <img src="Images/Picture40.png">
 
 ###### Precision, Recall, and F1 Score:
+<img src="Images/Picture41.png">
+
+###### ROC Curve:
+<img src="Images/Picture42.png">
+
+
 
 
 
