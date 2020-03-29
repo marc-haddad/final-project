@@ -109,6 +109,27 @@ R with Regex, Tidyverse, Readr, and Stringr
 ###### Train/Test Split
 <img src="Images/Picture31.png">
 
+##### Modeling and Metrics
+
+###### Precision-Recall Curve
+<img src="Images/Picture32.png">
+
+###### Train Model
+<img src="Images/Picture33.png">
+
+###### Model Metrics
+<img src="Images/Picture34.png">
+
+###### Accuracy, Precision, Balanced Accuracy, & MSE
+<img src="Images/Picture35.png">
+<img src="Images/Picture36.png">
+<img src="Images/Picture40.png">
+
+
+
+
+
+
 
 
 
