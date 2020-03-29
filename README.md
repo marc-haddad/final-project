@@ -123,7 +123,7 @@ R with Regex, Tidyverse, Readr, and Stringr
 ###### Accuracy, Precision, Balanced Accuracy, & MSE
 <img src="Images/Picture35.png">
 <img src="Images/Picture36.png">
-<img src="Images/Picture40.png">
+<img src="Images/Picture39.png">
 
 
 
