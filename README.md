@@ -7,30 +7,26 @@ Omar Haddad, Nithin Sunil, Sedra Kurdi, Myles Bridges
 # Crashing into Machine Learning
 
 ### Predicting Vehicle Accident Blame 
-Predicting the probability of the driver being at fault in a car crash given driver, weather, and road conditions
+Predicting the probability of the driver being at fault in a car crash given driver, weather, and road conditions.
 
-## Questions:
-1. Where is crime concentrated in Austin? 
-2. Is there a correlation between housing prices and crime rate? 
-3. Which type of crime is prominent in each zip code? 
-4. Does population influence the crime rate in a zip code?
+### Questions:
+1. How do we use machine learning algorithms to model our data?
+2. What are the most predictive variables of a driver being at fault?
+2. How predictive is the model? 
 
-## Datasets Used: 
- 1. https://www.kaggle.com/zillow/zecon
- 2. https://www.census.gov/developers/
- 3. https://data.austintexas.gov/Public-Safety/Crime-Reports/fdj4-gpfu
+### Dataset Used: 
+ https://data.world/montgomery-county-of-maryland/0ca5b758-c60a-40c7-bfb5-fda26ceee4c8
 
-## Breakdown of Tasks:
+### Breakdown of Tasks:
 
 1. Get dataset from sources.
 2. Cleaned data.
 3. Breakdown and analyze the dataset.
-4. Get crime rate by dividing crime reported by population for each zip code.
-5. Calculate percent change of crime, population, and median home value.
-6. Find the correlation between percent change of crime, population, and median home value.
-7. Graph using matplotlib.
-8. Make conclusions.
+4. Predicting Crash Outcomes with ML
 
+## Data Cleaning
+### Technology Used:
+R with Regex, Tidyverse, Readr, and Stringr
 
 # Questions - Answered
 
