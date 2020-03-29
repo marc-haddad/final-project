@@ -93,7 +93,20 @@ R with Regex, Tidyverse, Readr, and Stringr
 <img src="Images/Picture22.png">
 <img src="Images/Picture23.png">
 
-###### Simplify
+###### Simplify Columns
+<img src="Images/Picture24.png">
+<img src="Images/Picture25.png">
+<img src="Images/Picture26.png">
+
+###### Define X
+<img src="Images/Picture27.png">
+<img src="Images/Picture28.png">
+<img src="Images/Picture29.png">
+
+###### Define Y
+<img src="Images/Picture30.png">
+
+
 
 
 
